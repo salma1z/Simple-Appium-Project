@@ -21,13 +21,18 @@ Step 7 : Start appium
     appium
 # Installing appium with APPIUM DESKTOP CLIENT
 Step 1 : Download appium desktop client
+
    http://appium.io/
+   
    https://github.com/appium/appium-desk...
 Step 2 : Install appium desktop client
 Step 3 : Start appium through appium desktop client
+
 To check appium installation & dependencies
 Install appium-doctor
+
 https://github.com/appium/appium-doctor
+
 npm install appium-doctor -g
 appium-doctor -h
 appium-doctor --android
