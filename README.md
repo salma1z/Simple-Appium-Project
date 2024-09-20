@@ -59,6 +59,7 @@ npm install appium-doctor -g
     selenium-remote-driver 
     selenium-android-driver
 # Appium Inspector to Identify Elements
+
 1-Appium Inspector download & install
 2-Configure Appium Inspector
 Appium Inspector
