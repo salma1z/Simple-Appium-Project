@@ -61,13 +61,16 @@ npm install appium-doctor -g
 # Appium Inspector to Identify Elements
 
 1-Appium Inspector download & install
+
 2-Configure Appium Inspector
 Appium Inspector
 Go to or Open Appium Inspector
+
 Remote host: localhost
 Port: 4723
 Path: /wd/hub
 Allow Unauthorized Certificates
+
 3-Set DesiredCapabilities
         caps.setCapability("deviceName", "Android");
         caps.setCapability("platformName", "Android");
