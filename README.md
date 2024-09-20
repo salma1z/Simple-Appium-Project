@@ -58,4 +58,25 @@ npm install appium-doctor -g
     selenium-server-standalone 
     selenium-remote-driver 
     selenium-android-driver
+# Appium Inspector to Identify Elements
+1-Appium Inspector download & install
+2-Configure Appium Inspector
+Appium Inspector
+Go to or Open Appium Inspector
+Remote host: localhost
+Port: 4723
+Path: /wd/hub
+Allow Unauthorized Certificates
+3-Set DesiredCapabilities
+        caps.setCapability("deviceName", "Android");
+        caps.setCapability("platformName", "Android");
+        caps.setCapability("platformVersion", "15");
+        caps.setCapability("automationName", "UiAutomator2");
+        caps.setCapability("appPackage","com.google.android.dialer");
+        caps.setCapability("appActivity","com.google.android.dialer.extensions.GoogleDialtactsActivity");
+        caps.setCapability("noReset","true");
+        
+Disable Permission Monitoring
+Go to developer option.
+Go to last option called --> Disable Permission Monitoring --> enable it.
 
