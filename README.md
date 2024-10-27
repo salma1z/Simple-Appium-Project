@@ -1,6 +1,12 @@
 
 
 https://github.com/user-attachments/assets/e4fbc229-4999-40bf-b5f7-07a72a0e2075
+
+
+https://github.com/user-attachments/assets/c4631898-4861-4f0a-a28b-f4bf6078b5c7
+
+
+
 # Installing appium with Node.js
 Step 1 : Check if node.js is installed on your system    node --version    npm --version
 Step 2 : Download node.js installer 
